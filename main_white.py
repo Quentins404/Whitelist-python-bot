@@ -45,7 +45,7 @@ async def on_ready():
 
 #whitelist
 
-TEST_GUILD = discord.Object(1152621828641140796)
+TEST_GUILD = discord.Object(YOUR_GUID)
 
 
 class MyClient(discord.Client):
@@ -120,4 +120,4 @@ async def whitelist(interaction: discord.Interaction):
 
 
 
-client.run('MTE1MzczMjQyODI2ODA2MDcwMw.GUyjtA.qR4f06ogHEY12z7h18_hVM0n6kumUBp7JcYcpw')
+client.run('YOUR_TOKEN')
